@@ -1,8 +1,8 @@
 <!-- PROJECT LOGO -->
 <br />
 <p align="center">
-  <a href="https://github.com/kulbhushanchand/MCP4251">
-    <img src="docs/assets/images/logo.svg" alt="Logo" width="150" height="75">
+  <a href="https://github.com/kulbhushanchand/classroom-gamification">
+    <img src="assets/images/logo.png" alt="Logo" width="152" height="77">
   </a>
   <h2 align="center">classroom-gamification</h2>
   <p align="center">
@@ -11,7 +11,7 @@
 </p>
 
 ---
-<br />
+<br /> 
 
 
 ## Table of Contents
