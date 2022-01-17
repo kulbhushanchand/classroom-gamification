@@ -40,7 +40,7 @@ The leader board has a set of pre-defined simple rules. The score for each rule 
 6. -5 points for each lecture missed.
 7. -10 points for each time you were missed when your name was called for a surprise question.  
 
-![screenshot](docs/assets/images/screenshot.jpg)
+![screenshot](assets/images/screenshot.jpg)
 
 
 ## Features
