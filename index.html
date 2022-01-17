@@ -2,10 +2,14 @@
 <div align="center">
 <head>
   <meta charset="UTF-8">
-  <script type='text/javascript' src='https://ajax.googleapis.com/ajax/libs/jquery/1.8/jquery.min.js'></script>
+  <link rel="stylesheet" href="assets/css/style.css">
+  <script type='text/javascript' src='assets/js/jquery-3.6.0.min.js'></script>
 <h1><b> Gamification Leaderboard </b></h1>
 <h2> For class of Jan-2018</h2> 
 </head>
+</div>
+
+<div id="title-meme" align="center">
 </div>
 
 <hr />
@@ -13,7 +17,7 @@
 <ul>
   <li>This is an open-source project <a href="https://github.com/kulbhushanchand/classroom-gamification">classroom-gamification</a></li>
   <li>This leaderboard is developed and maintained by <a href="https://kulbhushanchand.github.io/about/">Kulbhushan Chand</a></li>
-  <li>For viewing raw data, students can send your query to <a href="https://www.nitj.ac.in/index.php/nitj_cinfo/Faculty/38">Dr. Arun Khosla (course instructor)</a></li>
+  <li>To view the latest raw data of the class, students can send their query to <a href="https://www.nitj.ac.in/index.php/nitj_cinfo/Faculty/38">Dr. Arun Khosla (course instructor)</a></li>
 </ul>
 
 <hr />
@@ -24,20 +28,16 @@
 </div>
 -->
 
-<div id="title-meme" align="center">
-</div>
-
-
 
   <div>
     <p> <b> <u> The rules are simple - </u> </b> <br> <br>
-        <b>1)</b> Base score of 50 points is given to all at start. <br>
-        <b>2)</b> +5 points for every lecture attended. <br>
-        <b>3)</b> -5 points for each lecture missed. <br>
-        <b>4)</b> +15 points for each surprise question answered. (We will randomly call a name) <br>
-        <b>5)</b> -10 points for each time you were absent when your name was called for surprise question. (We will randomly call a name) <br>
-        <b>6)</b> +25 points each for the best idea given in the class. (You can voluntarily give your idea) <br>
-        <b>7)</b> +10 points each time for winning lottery. (We will randomly call you)<br> <br>
+        <b>1.</b> Base score of 50 points is given to all at start. <br>
+        <b>2.</b> +5 points for every lecture attended. <br>
+        <b>3.</b> -5 points for each lecture missed. <br>
+        <b>4.</b> +15 points for each surprise question answered. (We will randomly call a name) <br>
+        <b>5.</b> -10 points for each time you were absent when your name was called for surprise question. (We will randomly call a name) <br>
+        <b>6.</b> +25 points each for the best idea given in the class. (You can voluntarily give your idea) <br>
+        <b>7.</b> +10 points each time for winning lottery. (We will randomly call you)<br> <br>
       <b> -- </b> Maximum of 2 best ideas will be accepted each day.  <br>
       <b> -- </b> Maximum of 2 surprise question each day. <br>
       <b> -- </b> Maximum of 2 lottery lucky winners each day. <br>
@@ -45,12 +45,13 @@
     </p>
   </div>
   
-<body>
+<body class="bgbox">
+
 <iframe src="https://docs.google.com/spreadsheets/d/e/2PACX-1vQPZE4Mabc7nf-RhUvJ2TXLYLvWL-cL1PbuUx1Ecg9A2dZ5yNxXqWMXTU5p8NFh9DMJe05pj8EtEYil/pubhtml?gid=495947404&amp;single=true&amp;widget=true&amp;headers=false" style='height: 100%; width: 100%;' frameborder="0" scrolling="no" id="iframe"></iframe>  
 
 <script>
   //Do a bit of maths to randomize load and append to a div.
-     $('<img class="fade-in" src="images/title_meme_' + Math.floor((Math.random() * 11) + 1) + '.jpg" alt="Gamifiction meme2">').appendTo('#title-meme');
+     $('<img class="fade-in" src="assets/images/title_meme_' + Math.floor((Math.random() * 11) + 1) + '.jpg" alt="Gamifiction meme2">').appendTo('#title-meme');
 </script>
 
 </body>
